@@ -81,7 +81,7 @@ app.delete('/article/:id', async(req, res) => {
   }
 })
 
-app.listen( async () => {
+app.listen(port, async () => {
     console.log(`Server up on http://localhost:${port}`)
     
     console.log('Database synced!')
